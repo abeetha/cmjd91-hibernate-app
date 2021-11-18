@@ -1,5 +1,5 @@
 public class Customer {
-    private String id;
+    private long id;
     private String name;
     private String address;
     private double salary;
@@ -7,18 +7,18 @@ public class Customer {
     public Customer() {
     }
 
-    public Customer(String id, String name, String address, double salary) {
+    public Customer(long id, String name, String address, double salary) {
         this.id = id;
         this.name = name;
         this.address = address;
         this.salary = salary;
     }
 
-    public String getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(String id) {
+    public void setId(long id) {
         this.id = id;
     }
 
